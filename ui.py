@@ -1,4 +1,7 @@
 import os
+
+for key, value in st.secrets.items():
+    os.environ.setdefault(key, str(value))import os
 import streamlit as st
 import requests
 import json
