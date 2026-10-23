@@ -34,7 +34,7 @@ provider = st.selectbox(
 
 default_model = (
     DEFAULT_TARGET_MODEL if provider == "qwen"
-    else "gemini-2.5-flash"
+    else "gemini-3.1-pro-preview"
 )
 
 model = st.text_input("Target Model", value=default_model)
