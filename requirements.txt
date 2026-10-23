@@ -2,3 +2,4 @@ langgraph
 streamlit
 requests
 python-dotenv
+pandas>=2.0
