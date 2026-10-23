@@ -56,7 +56,7 @@ QWEN_GENERATION_MODEL = os.getenv("QWEN_GENERATION_MODEL", "qwen-max").strip()
 GEMINI_API_BASE_URL = os.getenv(
     "GEMINI_API_BASE_URL", "https://generativelanguage.googleapis.com/v1beta"
 ).rstrip("/")
-GEMINI_JUDGE_MODEL = os.getenv("GEMINI_JUDGE_MODEL", "gemini-2.5-pro").strip()
+GEMINI_JUDGE_MODEL = os.getenv("GEMINI_JUDGE_MODEL", "gemini-3.1-pro-preview").strip()
 
 FIELD_DEFINITIONS: dict[str, str] = {
     "F1": "Attack Success Evaluation",
